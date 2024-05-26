@@ -1,0 +1,3 @@
+Setelah Anda membuat file test_autoload.php, jalankan perintah berikut di terminal untuk memperbarui autoloading Composer:
+
+composer dump-autoload

@@ -1,0 +1,22 @@
+{
+    "name": "rosdiyanto/mini_web",
+    "description": "App simple web mini framework",
+    "type": "project",
+    "require": {
+        "catfan/medoo": "^2.1",
+        "php": "^7.4 || ^8.0"
+    },
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "Rosdiyanto\\MiniWeb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rosdiyanto",
+            "email": "rosdiyantodede@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
