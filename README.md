@@ -47,20 +47,30 @@ Pastikan sistem Anda memiliki persyaratan berikut sebelum menginstal dan menjala
     
 ## Penggunaan
 
-- **Halaman Utama (HomeController/index):**
-  http://miniweb.test/
+- Halaman Utama (HomeController/index):
+    ```sh
+    http://miniweb.test/
+    ```
 
-- **Daftar Pengguna (UserController/index):**
-  http://miniweb.test/index.php/user
+- Daftar Pengguna (UserController/index):
+    ```sh
+    http://miniweb.test/index.php/user
+    ```
 
-- **Membuat Pengguna Baru (UserController/create):**
-  http://miniweb.test/index.php/user/create
+- Membuat Pengguna Baru (UserController/create):
+    ```sh
+    http://miniweb.test/index.php/user/create
+    ```
 
-- **Mengedit Pengguna (UserController/edit dengan ID pengguna):**
-  http://miniweb.test/index.php/user/edit/1
+- Mengedit Pengguna (UserController/edit dengan ID pengguna):
+    ```sh
+    http://miniweb.test/index.php/user/edit/1
+    ```
 
-- **Menghapus Pengguna (UserController/delete dengan ID pengguna):**
-  http://miniweb.test/index.php/user/delete/1
+- Menghapus Pengguna (UserController/delete dengan ID pengguna):
+    ```sh
+    http://miniweb.test/index.php/user/delete/1
+    ```
 
 ## Kontribusi
 
