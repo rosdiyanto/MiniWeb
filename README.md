@@ -20,7 +20,7 @@ Pastikan sistem Anda memiliki persyaratan berikut sebelum menginstal dan menjala
 1. **Clone repository ini:**
 
    ```sh
-   git clone https://github.com/username/miniweb.git
+   git clone https://github.com/rosdiyanto/miniweb.git
    cd miniweb
    ```
 
