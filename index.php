@@ -38,7 +38,7 @@ $url = ltrim($requestUri, '/');
 
 // Default routing: if no URL is provided, use HomeController and index action
 if ($url === '') {
-    $controllerName = 'home';
+    $controllerName = 'Home';
     $actionName = 'index';
 } else {
     // Process the URL into controller, action, and parameters
@@ -46,7 +46,7 @@ if ($url === '') {
     $url = filter_var($url, FILTER_SANITIZE_URL);
     $url = explode('/', $url);
 
-    $controllerName = !empty($url[0]) ? $url[0] : 'home';
+    $controllerName = !empty($url[0]) ? ucfirst($url[0]) : 'Home';
     $actionName = !empty($url[1]) ? $url[1] : 'index';
     $parameter = !empty($url[2]) ? $url[2] : null;
 
@@ -57,7 +57,7 @@ if ($url === '') {
 }
 
 // Include the controller file
-$controllerPath = __DIR__ . '/app/controllers/' . $controllerName . 'Controller.php';
+$controllerPath = __DIR__ . '/app/controllers/' . ucfirst($controllerName) . 'Controller.php';
 if (file_exists($controllerPath)) {
     require_once $controllerPath;
     $controllerClass = ucfirst($controllerName) . 'Controller';
